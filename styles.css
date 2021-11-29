@@ -1,0 +1,161 @@
+body {
+  background-color: #E0BA3F;
+  min-height: 26rem;
+}
+@media screen and (min-width: 320px) {
+  .back-line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 19rem;
+    height: 100%;
+    background-color: #9834FF;
+    border-left: #7C5147 0.25rem solid;
+    border-right: #7C5147 0.25rem solid;
+  }
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 30rem;
+    height: 50rem;
+    color: #E0BA3F;
+    font-family: 'Outfit', sans-serif;
+  }
+  .container .brand-text {
+    position: relative;
+    font-size: 5rem;
+    top: 24rem;
+    width: 100%;
+    text-align: center;
+    letter-spacing: -0.014rem;
+    font-weight: 500;
+    text-shadow: -2px -2px 0 #7C5147, 2px -2px 0 #7C5147, -2px 2px 0 #7C5147, 2px 2px 0 #7C5147;
+  }
+  .container .dscpn {
+    position: relative;
+    top: 24rem;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.2rem;
+  }
+  .container .imglogo {
+    position: absolute;
+    z-index: 100;
+    left: calc(50% + 2.48rem);
+    top: 23%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 30rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .back-line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    height: 10rem;
+    background-color: #9834FF;
+    border-top: #7C5147 0.25rem solid;
+    border-bottom: #7C5147 0.25rem solid;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 48rem;
+    height: 30rem;
+    color: #E0BA3F;
+    font-family: 'Outfit', sans-serif;
+  }
+  .container .brand-text {
+    position: relative;
+    font-size: 5rem;
+    top: 10rem;
+    width: 100%;
+    text-align: right;
+    right: 1.5rem;
+    letter-spacing: -0.014rem;
+    font-weight: 500;
+    text-shadow: -2px -2px 0 #7C5147, 2px -2px 0 #7C5147, -2px 2px 0 #7C5147, 2px 2px 0 #7C5147;
+  }
+  .container .dscpn {
+    position: relative;
+    top: 10rem;
+    text-align: right;
+    right: 1.5rem;
+    font-weight: 200;
+    font-size: 1.2rem;
+  }
+  .container .imglogo {
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 33%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    height: 27rem;
+    margin: -1rem 0 -1rem 0;
+  }
+}
+@media screen and (min-width: 800px) {
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 50rem;
+    height: 30rem;
+    color: #E0BA3F;
+    font-family: 'Outfit', sans-serif;
+  }
+  .container .brand-text {
+    position: relative;
+    font-size: 5rem;
+    top: 10rem;
+    width: 100%;
+    text-align: right;
+    right: 1.5rem;
+    letter-spacing: -0.014rem;
+    font-weight: 500;
+    text-shadow: -2px -2px 0 #7C5147, 2px -2px 0 #7C5147, -2px 2px 0 #7C5147, 2px 2px 0 #7C5147;
+  }
+  .container .dscpn {
+    position: relative;
+    top: 10rem;
+    text-align: right;
+    right: 1.5rem;
+    font-weight: 200;
+    font-size: 1.2rem;
+  }
+  .container .imglogo {
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 33%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    height: 27em;
+    margin: -1em 0 -1em 0;
+  }
+}
